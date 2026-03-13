@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JCI Alangalang - Official Website</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fa;
+      color: #333;
+    }
+    header {
+      background: #0056a6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #003d73;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('banner.jpg') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+    .hero h1 {
+      font-size: 3em;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    footer {
+      background: #003d73;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JCI Alangalang</h1>
+    <p>Developing Leaders for a Better Community</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#projects">Projects</a>
+    <a href="#events">Events</a>
+    <a href="#membership">Membership</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Welcome to JCI Alangalang</h1>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>JCI Alangalang is a local chapter of Junior Chamber International, dedicated to empowering young leaders and creating positive change in our community.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <p>We lead initiatives in education, environment, entrepreneurship, and community development.</p>
+  </section>
+
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <p>Stay tuned for leadership seminars, outreach programs, and community activities.</p>
+  </section>
+
+  <section id="membership">
+    <h2>Membership</h2>
+    <p>Join JCI Alangalang and be part of a global network of young leaders. <br><a href="#">Apply Now</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@jcialangalang.org | Phone: +63-XXX-XXXXXXX</p>
+    <p>Follow us on Facebook and Instagram!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 JCI Alangalang. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
